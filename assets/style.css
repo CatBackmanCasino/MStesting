@@ -168,7 +168,19 @@ height: 100%;
         float: none;
         height: 300px;
         text-align: center;
-        width: auto;
-        
+        width: auto;   
+     }
+     #middle-section{
+         margin-top: 0;
+     }
+     .persons-container{
+         margin-top: 0;
+         width: 100%;
+     }
+     #logo-upper-left{
+         width: 100%;
+     }
+     nav{
+         width: 100%;
      }
 }
