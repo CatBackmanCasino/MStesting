@@ -82,7 +82,7 @@ height: 100%;
 }
 
 #left-main{
-    background: url("/assets/images/dublin-city.webp");
+    background: url("assets/images/dublin-city.webp");
     background-size: cover;
     height: 800px;
     width: 20%;
@@ -108,7 +108,7 @@ height: 100%;
     height: 800px;
     float: left;
     transform: scale(0.9);
-    background: url("/assets/images/main-picture.png") no-repeat center center;
+    background: url("assets/images/main-picture.png") no-repeat center center;
     background-size: cover;
     animation-name: picture-zoom;
     animation-duration: 5s;
