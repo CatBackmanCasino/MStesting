@@ -26,23 +26,23 @@ header {
 
 #logo-upper-left{
     float: left;  
-    background-color: rgb(84, 69, 99);
+    background-color: rgb(29, 29, 29);
     width: 20%;
     line-height: 100px;
-   text-align: left;
+   text-align: center;
    font-size: 300%;
    color:rgb(209, 209, 209);
    font-weight: bolder;
    letter-spacing: 5px;
    font-family: league gothic;
-   padding-left: 40px;
+   
    text-decoration: none;
    text-shadow: 10px 10px 40px rgb(180, 180, 180);
 }
 
 nav {
 float: right;
-background-color: blue;
+background-color: rgb(151, 82, 151);
 width: 80%;
 height: 100%;
 }
@@ -68,7 +68,7 @@ height: 100%;
 }
 
 .person-div {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -82,11 +82,16 @@ height: 100%;
 }
 
 #left-main{
-    background-color: rgb(255, 255, 255);
+    background: url("/assets/images/dublin-city.webp");
+    background-size: cover;
     height: 800px;
     width: 20%;
     float: left;
     overflow: hidden;
+    animation-name: slide-continuous;
+    animation-duration: 10s;
+    animation-fill-mode:forwards;
+   
 }
 
 #right-main {
@@ -145,6 +150,10 @@ height: 100%;
 }
 
 /* animations */
+@keyframes slide-continuous {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+}
 
 @keyframes slide-from-left {
     from{ left: -200%}
